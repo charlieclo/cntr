@@ -1,0 +1,90 @@
+{
+  "navigations": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "product": "Produk",
+    "partners": "Mitra Kami",
+    "contact-us": "Hubungi Kami"
+  },
+  "contents": {
+    "home": {
+      "introduction": {
+        "title": "Solusi",
+        "headline": "Baja Terpercaya",
+        "description": "Baja merupakan elemen penting dalam membangun masa depan yang kokoh dan tahan lama. Memilih baja yang tepat dan berkualitas tinggi akan menentukan kekuatan dan ketahanan struktur Anda. Centra Steel hadir sebagai solusi terpercaya untuk kebutuhan baja Anda."
+      },
+      "partners": {
+        "name": "Lebih Kuat dengan Kebersamaan",
+        "description": "Baja adalah simbol kekuatan dan ketahanan yang mampu bertahan dalam ujian waktu. Centra Steel, sebagai perusahaan baja terdepan, berkomitmen untuk menghadirkan baja berkualitas tinggi yang tak lekang oleh waktu. Bergabunglah bersama kami untuk merasakan keahlian dan keunggulan Centra Steel dalam membangun masa depan yang kokoh."
+      }
+    },
+    "about": {
+      "introduction": {
+        "title": "Siapa kami?",
+        "name": "Centra Steel",
+        "description": "Centra Steel merupakan anak perusahaan dari PT Centra Hasta Mitra (Grup Centra) yang telah berdiri sejak tahun 2020. Meski berusia muda, para pendiri perusahaan ini memiliki pengalaman industri lebih dari 20 tahun. Centra Steel berfokus dalam solusi pengadaan baja untuk berbagai sektor, seperti minyak & gas, pertambangan, serta industri umum lainnya."
+      },
+      "philosophies": {
+        "commitment": "Sejak pembentukan Centra Steel, komitmen selalu menjadi bagian integral dari perusahaan. Dedikasi untuk meningkatkan dan memperkuat kemajuan bersama pelanggan adalah hal yang selalu Centra Steel kedepankan untuk kebaikan bagi semua.",
+        "excellence": "Prioritas utama kami adalah memberikan layanan yang konsisten dengan produk baja berkualitas terbaik.",
+        "notability": "Terus berbenah di seluruh aspek operasi untuk menjadi yang terdepan dalam peralatan dan produk baja, menawarkan kualitas dan layanan yang tak tertandingi.",
+        "trust": "Kepercayaan adalah dasar fundamental bagi Centra Steel. Sebuah tolak ukur dalam operasional yang dijalankan sejak perusahaan didirikan, memastikan kualitas dan keandalan yang tangguh dalam pengiriman produk dan layanan baja secara global.",
+        "readiness": "Kesiapan tim, sistem, dan infrastruktur yang mumpuni di Centra Steel untuk memastikan produk dan layanan terbaik bagi klien, kapanpun dan dimanapun saat dibutuhkan.",
+        "aggressiveness": "Centra Steel memiliki tim yang berdedikasi untuk mengembangkan solusi baja inovatif. Tim kami bekerja dengan pola pikir proaktif dan tegas untuk memastikan bahwa Centra Steel dapat memanfaatkan sumber daya secara optimal. Hasilnya, solusi baja terpusat, efisien, dan cepat yang memberikan keuntungan bagi pelanggan di seluruh dunia."
+      },
+      "networks": {
+        "introduction": "Centra Steel berkomitmen untuk menjunjung tinggi nilai-nilai CENTRA. Nilai-nilai ini dipadukan dengan Resilience (Ketangguhan), Expertise (Keahlian), dan Durability (Daya Tahan) untuk memastikan Centra Steel selalu memberikan solusi baja terbaik bagi pelanggannya.",
+        "vision": "Menjadi penghubung dan pusat baja serta memimpin kemajuan baja di sektor pertambangan, energi, kelapa sawit, dan industri umum di Indonesia.",
+        "mission": [
+          "Berkomitmen untuk menghadirkan produk dan layanan dengan kualitas terbaik.",
+          "Membangun kemitraan strategis di seluruh industri untuk mendorong kesuksesan bersama dan perkembangan ekosistem yang maju.",
+          "Menjadi perusahaan kelas dunia dengan terus berinovasi dan berkembang, menghadirkan sistem yang efektif serta bernilai jangka panjang bagi semua pemangku kepentingan."
+        ]
+      },
+      "certification": "Sertifikasi ISO 9001:2015 Centra Steel menjadi bukti nyata komitmen kami terhadap kualitas dan kepuasan pelanggan, memastikan produk dan layanan terbaik di kelasnya"
+    },
+    "contact": {
+      "headline": "Kolaborasi untuk Kesuksesan",
+      "description": [
+        "Bergabunglah bersama kami untuk menciptakan masa depan lebih baik!",
+        "Bermitra dengan Centra Steel membuka pintu ke berbagai peluang dan keuntungan yang tak tertandingi. Dapatkan akses ke jaringan luas kami, keahlian industri yang mendalam, dan solusi inovatif yang dapat membantu Anda mencapai tujuan."
+      ]
+    },
+    "partners": {
+      "headline": "Ikatan Sekuat Baja",
+      "description": "Melalui sinergi dengan mitra dan pemasok, Centra Steel menggabungkan kekuatan, keahlian, dan sumber daya untuk menciptakan solusi baja yang inovatif dan berkelanjutan."
+    }
+  },
+  "language": "Bahasa",
+  "send-message": "Kirim Pesan",
+  "browse-more": "Lebih Lanjut",
+  "browse-products": "Telusuri Produk",
+  "our-products": "Produk Kami",
+  "our-services": "Layanan Kami",
+  "our-partners": "Mitra Kami",
+  "part-of": "Bagian Dari",
+  "head-office": "Kantor Pusat",
+  "vision": "Visi",
+  "mission": "Misi",
+  "certification": "Sertifikasi",
+  "view-certificate": "Lihat Sertifikat",
+  "learn-more": "Pelajari Lebih",
+  "specification": "Spesifikasi",
+  "industry": "Industri {index}",
+  "full-name": "Nama Lengkap",
+  "phone-number": "Nomor HP",
+  "email-address": "Alamat Email",
+  "message": "Pesan",
+  "location-map": "Peta Lokasi",
+  "navigation": "Navigasi",
+  "social-media": "Media Sosial",
+  "error": {
+    "failed-send-message": "Pesan gagal dikirim",
+    "empty": "{field} harus diisi",
+    "length": "Panjang {field} tidak boleh lebih dari {maxLength} karakter",
+    "pattern": "{field} tidak valid"
+  },
+  "success": {
+    "success-send-message": "Pesan berhasil terkirim"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "navigations": {
+    "home": "Home",
+    "about": "About Us",
+    "product": "Products",
+    "partners": "Our Partners",
+    "contact-us": "Contact Us"
+  },
+  "contents": {
+    "home": {
+      "introduction": {
+        "title": "Solution",
+        "headline": "Trusted Steel",
+        "description": "Steel is an important element in building a strong and durable future. Choosing the right, high-quality steel will determine the strength and durability of your structure. Centra Steel is here as a trusted solution for your steel needs."
+      },
+      "partners": {
+        "name": "Stronger with Togetherness",
+        "description": "Steel is a symbol of strength and resilience that can stand the test of time. Centra Steel, as a leading steel company, is committed to providing high quality steel that is timeless. Join us to experience Centra Steel's expertise and excellence in building a strong future."
+      }
+    },
+    "about": {
+      "introduction": {
+        "title": "Who are we?",
+        "name": "Centra Steel",
+        "description": "Centra Steel is a subsidiary of PT Centra Hasta Mitra (Centra Group) which has been established since 2020. Even though they are young, the founders of this company have more than 20 years of industrial experience. Centra Steel focuses on steel procurement solutions for various sectors, such as oil & gas, mining and other general industries."
+      },
+      "philosophies": {
+        "commitment": "Since the formation of Centra Steel, commitment has always been an integral part of the company. Dedication to improving and strengthening progress with customers is something that Centra Steel always puts forward for the good of all.",
+        "excellence": "Our top priority is to provide consistent service with the best quality steel products.",
+        "notability": "Continuously improve all aspects of operations to be a leader in steel equipment and products, offering unmatched quality and service.",
+        "trust": "Trust is a fundamental basis for Centra Steel. A benchmark in operations that has been in place since the company was founded, ensuring robust quality and reliability in the delivery of steel products and services globally.",
+        "readiness": "The readiness of the team, systems and infrastructure at Centra Steel to ensure the best products and services for clients, whenever and wherever they are needed.",
+        "aggressiveness": "Centra Steel has a team dedicated to developing innovative steel solutions. Our team works with a proactive and decisive mindset to ensure that Centra Steel can utilize resources optimally. The result is a centralized, efficient and fast steel solution that benefits customers worldwide."
+      },
+      "networks": {
+        "introduction": "Centra Steel is committed to upholding CENTRA's values. These values are combined with Resilience, Expertise and Durability to ensure that Centra Steel always provides the best steel solutions for its customers.",
+        "vision": "Become a liaison and center for steel and lead the progress of steel in the mining, energy, palm oil and general industrial sectors in Indonesia.",
+        "mission": [
+          "Committed to providing the best quality products and services.",
+          "Build strategic partnerships across industries to drive mutual success and advanced ecosystem development.",
+          "Become a world-class company by continuing to innovate and develop, providing a system that is effective and has long-term value for all stakeholders."
+        ]
+      },
+      "certification": "Centra Steel's ISO 9001:2015 certification is clear proof of our commitment to quality and customer satisfaction, ensuring best-in-class products and services"
+    },
+    "contact": {
+      "headline": "Collaboration for Success",
+      "description": [
+        "Join us to create a better future!",
+        "Partnering with Centra Steel opens the door to unmatched opportunities and benefits. Get access to our extensive network, deep industry expertise, and innovative solutions that can help you achieve your goals."
+      ]
+    },
+    "partners": {
+      "headline": "A bond as strong as steel",
+      "description": "Through synergies with partners and suppliers, Centra Steel combines strengths, expertise and resources to create innovative and sustainable steel solutions."
+    }
+  },
+  "language": "Language",
+  "send-message": "Send Message",
+  "browse-more": "Browse More",
+  "browse-products": "Browse Products",
+  "our-products": "Our Products",
+  "our-services": "Our Services",
+  "our-partners": "Our Partners",
+  "part-of": "Part Of",
+  "head-office": "Head Office",
+  "vision": "Vision",
+  "mission": "Mission",
+  "certification": "Certification",
+  "view-certificate": "View Certificate",
+  "learn-more": "Learn More",
+  "specification": "Specification",
+  "industry": "Industry {index}",
+  "full-name": "Full Name",
+  "phone-number": "Phone Number",
+  "email-address": "Email Address",
+  "message": "Message",
+  "location-map": "Location Map",
+  "navigation": "Navigation",
+  "social-media": "Social Media",
+  "error": {
+    "failed-send-message": "Failed to send message",
+    "empty": "{field} must be filled in",
+    "length": "Length of {field} must not be greater than {maxLength} characters",
+    "pattern": "{field} is not valid"
+  },
+  "success": {
+    "success-send-message": "Message sent successfully"
+  }
+}
