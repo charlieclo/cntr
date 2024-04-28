@@ -72,8 +72,8 @@ const { t } = useI18n()
 .description {
   padding-top: 20px;
   font-weight: 400;
-  font-size: 2.5vw;
-  line-height: 4vw;
+  font-size: 3.5vw;
+  line-height: 5vw;
   letter-spacing: 0.05em;
   text-align: center;
   color: var(--cntr-off-white);
