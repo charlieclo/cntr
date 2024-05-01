@@ -47,10 +47,11 @@ const openProductModal = (product) => {
         v-for="(product, index) in products[selectedCategoryIndex].products"
         :key="`product-${index}`"
         class="product-list-item"
+        @click="openProductModal(product)" 
       >
         <div class="item-data">
           <div class="item-name">{{ product[locale].name }}</div>
-          <button @click="openProductModal(product)" class="item-more">
+          <button class="item-more">
             {{ t('learn-more') }}
           </button>
         </div>
@@ -139,6 +140,7 @@ const openProductModal = (product) => {
   mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   mask-size: cover;
+  cursor: pointer;
 }
 
 .item-data {

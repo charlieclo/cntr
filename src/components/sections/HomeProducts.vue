@@ -53,10 +53,11 @@ const openProductModal = (product) => {
         v-for="(product, index) in products"
         :key="`product-${index}`"
         class="item-container"
+        @click="openProductModal(product)"
       >
         <div class="item-category">{{ product.categoryName }}</div>
         <div class="item-name">{{ product[locale].name }}</div>
-        <div class="item-more" @click="openProductModal(product)">
+        <div class="item-more">
           {{ t('browse-more') }} <img src="@/assets/icons/arrow-black.svg" alt="arrow" />
         </div>
         <img
@@ -148,6 +149,7 @@ const openProductModal = (product) => {
   mask-repeat: no-repeat;
   -webkit-mask-size: contain;
   mask-size: contain;
+  cursor: pointer;
 }
 
 .item-category {
