@@ -17,14 +17,14 @@ const headlineIndex = ref(0)
 
 let headlineBackgroundInterval = setInterval(() => {
   setHeadlineIndex(headlineIndex.value + 1, false)
-}, 5000)
+}, 10000)
 
 const setHeadlineIndex = (index, reset) => {
   if (reset) {
     clearInterval(headlineBackgroundInterval)
     headlineBackgroundInterval = setInterval(() => {
       setHeadlineIndex(headlineIndex.value + 1, false)
-    }, 9000)
+    }, 10000)
   }
   headlineIndex.value = index > props.headlines.length - 1 ? 0 : index
 }

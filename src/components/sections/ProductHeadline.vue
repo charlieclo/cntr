@@ -14,7 +14,7 @@ const headlineIndex = ref(0)
 
 let headlineBackgroundInterval = setInterval(() => {
   setHeadlineIndex(headlineIndex.value + 1, false)
-}, 5000)
+}, 9000)
 
 const setHeadlineIndex = (index, reset) => {
   if (reset) {
