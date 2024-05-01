@@ -76,7 +76,7 @@ const closeModal = () => {
   grid-row-gap: 10px;
   position: relative;
   overflow-y: auto;
-  background-color: var(--cntr-light-gray);
+  background-color: var(--cntr-white);
   -webkit-mask-image: url('@/assets/patterns/modal-pattern.svg');
   mask-image: url('@/assets/patterns/modal-pattern.svg');
   -webkit-mask-repeat: no-repeat;
@@ -174,7 +174,7 @@ const closeModal = () => {
     grid-area: 2 / 2 / 3 / 3;
     padding: 0;
     font-size: 18px;
-    line-height: 16.1px;
+    line-height: 24.1px;
   }
 
   .product-specification {
