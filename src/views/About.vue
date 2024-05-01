@@ -1,5 +1,5 @@
 <script setup>
-import { defineAsyncComponent } from 'vue'
+import { defineAsyncComponent, ref } from 'vue'
 import { constructContactsData } from '@/util/data'
 
 defineProps({
@@ -14,6 +14,13 @@ const Philosophy = defineAsyncComponent(() => import('@/components/sections/Abou
 const Networks = defineAsyncComponent(() => import('@/components/sections/AboutUsNetworks.vue'))
 const Certification = defineAsyncComponent(() => import('@/components/sections/AboutUsCertification.vue'))
 const Footer = defineAsyncComponent(() => import('@/components/Footer.vue'))
+const Modal = defineAsyncComponent(() => import('@/components/sections/CertificateModal.vue'))
+
+const showCertificatetModal = ref(false)
+
+const toggleCertificateModal = (toggle) => {
+  showCertificatetModal.value = toggle
+}
 </script>
 
 <template>
@@ -25,9 +32,14 @@ const Footer = defineAsyncComponent(() => import('@/components/Footer.vue'))
     <!-- Networks -->
     <Networks />
     <!-- Certification -->
-    <Certification />
+    <Certification @itemClicked="toggleCertificateModal" />
     <!-- Footer -->
     <Footer :contacts="constructContactsData(data)" class="about-us-footer" />
+    <!-- Certificate Modal -->
+    <Modal
+      :show="showCertificatetModal"
+      @close="toggleCertificateModal"
+    />
   </div>
 </template>
 

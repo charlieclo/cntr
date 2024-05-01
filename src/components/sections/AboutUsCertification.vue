@@ -7,7 +7,13 @@ defineComponent({
   TrapezoidPattern
 })
 
+const emits = defineEmits(['itemClicked'])
+
 const { t } = useI18n()
+
+const openCertificationModal = () => {
+  emits('itemClicked', true)
+}
 </script>
 
 <template>
@@ -22,10 +28,10 @@ const { t } = useI18n()
         </div>
       </div>
       <div class="certification-document">
-        <div class="document-container">
+        <div class="document-container" @click="openCertificationModal">
           <div>
             <img src="@/assets/icons/document-icon.png" alt="document" />
-            <p>Sertifikasi 1</p>
+            <p>{{ t('certification') }} 1</p>
           </div>
           <button class="document-download-button">{{ t('view-certificate') }}</button>
         </div>
@@ -94,6 +100,7 @@ const { t } = useI18n()
   background-image: url('@/assets/patterns/vector-background.svg');
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .document-container p {
