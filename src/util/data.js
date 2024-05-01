@@ -29,6 +29,7 @@ export function constructProductsShowOnHome (data) {
 
 export function constructProductsData (data) {
   let productsCategory = []
+  let allProducts = []
 
   for (let i = 1; i <= 5; i++) {
     let productObject = new Object()
@@ -38,11 +39,16 @@ export function constructProductsData (data) {
       let currentProduct = data.products[`productCategory${i}`][`product${j}`]
       if (currentProduct.image !== null) {
         productObject.products.push(currentProduct)
+        allProducts.push(currentProduct)
       }
     }
     productsCategory.push(productObject)
   }
 
+  productsCategory.unshift({
+    categoryName: 'all-products',
+    products: allProducts
+  })
   return productsCategory
 }
 

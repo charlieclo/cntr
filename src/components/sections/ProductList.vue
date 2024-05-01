@@ -39,7 +39,7 @@ const openProductModal = (product) => {
         :class="{ active: index === selectedCategoryIndex, 'product-selector-item': true }"
         @click="selectCategory(index)"
       >
-        {{ category }}
+        {{ t(category) }}
       </div>
     </div>
     <div class="product-list-layout">
