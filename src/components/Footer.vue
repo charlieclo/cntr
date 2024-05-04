@@ -233,7 +233,7 @@ const goToPage = (page) => {
 
 .footer-address>p {
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 4vw;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--cntr-orange);
@@ -242,7 +242,8 @@ const goToPage = (page) => {
 .address {
   width: 60%;
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 3.5vw;
+  line-height: 5vw;
   letter-spacing: 0.05em;
   text-align: justify;
   text-transform: none;
