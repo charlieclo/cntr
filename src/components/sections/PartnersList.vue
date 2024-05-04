@@ -94,7 +94,8 @@ const selectIndustry = (index) => {
 }
 
 .partners-list-selector {
-  display: flex;
+  display: none;
+  /* display: flex; */
   align-items: center;
   gap: 40px;
   overflow: auto;
@@ -141,7 +142,7 @@ const selectIndustry = (index) => {
 
 .partners-list-item {
   align-content: center;
-  border: 1px solid var(--cntr-off-white);
+  /* border: 1px solid var(--cntr-off-white); */
 }
 
 .partners-list-item>img {
@@ -159,7 +160,7 @@ const selectIndustry = (index) => {
 .partners-list-item-mobile {
   flex: 1;
   width: 100%;
-  border: 1px solid var(--cntr-off-white);
+  /* border: 1px solid var(--cntr-off-white); */
   text-align: center;
 }
 
@@ -176,7 +177,7 @@ const selectIndustry = (index) => {
 
 @media screen and (min-width: 1025px) {
   .partners-list-content {
-    padding: 0 160px;
+    padding: 80px;
     gap: 75px;
   }
 
