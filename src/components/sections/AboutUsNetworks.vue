@@ -96,7 +96,7 @@ const { t } = useI18n()
   padding: 70px 0px;
   font-weight: 400;
   font-size: 4vw;
-  line-height: 5vw;
+  line-height: 5.5vw;
   letter-spacing: 0.05em;
   color: var(--cntr-white);
 }
@@ -136,8 +136,8 @@ const { t } = useI18n()
 .vision-content,
 .mission-content {
   font-weight: 400;
-  font-size: 3vw;
-  line-height: 4vw;
+  font-size: 3.5vw;
+  line-height: 5vw;
   letter-spacing: 0.05em;
   color: var(--cntr-white);
 }
