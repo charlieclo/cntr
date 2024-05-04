@@ -222,7 +222,7 @@ const goToPage = (page) => {
 
 .footer-address-navigation {
   display: flex;
-  gap: 35px;
+  gap: 105px;
 }
 
 .footer-address {
