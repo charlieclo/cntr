@@ -214,7 +214,7 @@ onUnmounted(() => {
 
   .content-description {
     max-width: 80%;
-    height: 153px;
+    height: 190px;
     padding-top: 40px;
     padding-bottom: 0px;
     font-size: 1.3vw;
