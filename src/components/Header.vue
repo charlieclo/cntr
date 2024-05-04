@@ -29,7 +29,11 @@ const changeLocale = (newLocale) => {
   <header class="header">
     <div class="header-logo">
       <div class="logo-background"></div>
-      <img alt="logo" src="@/assets/images/logo-white.svg" />
+      <img
+        src="@/assets/images/logo-white.svg"
+        alt="logo"
+        @click="goToPage('/')"
+      />
     </div>
     <nav class="header-navigation">
       <router-link
