@@ -78,17 +78,17 @@ const { t } = useI18n()
 
 .introduction-description>div:first-child {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 7vw;
   font-style: italic;
-  line-height: 29.9px;
+  line-height: 8vw;
   letter-spacing: 0.05em;
   color: var(--cntr-white);
 }
 
 .introduction-description>div:last-child {
   font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 3.5vw;
+  line-height: 5vw;
   letter-spacing: 0.05em;
   color: var(--cntr-white);
 }
