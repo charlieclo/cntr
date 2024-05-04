@@ -199,7 +199,7 @@ onUnmounted(() => {
   display: none;
   text-align: center;
   position: relative;
-  bottom: 4.4vw;
+  bottom: 4.57vw;
 }
 
 .arrow-selector {
