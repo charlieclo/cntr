@@ -55,8 +55,8 @@ const { t } = useI18n()
 
 .content-description {
   font-weight: 400;
-  font-size: 3vw;
-  line-height: 4vw;
+  font-size: 3.5vw;
+  line-height: 5vw;
   letter-spacing: 0.05em;
   color: var(--cntr-off-white);
 }
