@@ -38,7 +38,7 @@ const selectIndustry = (index) => {
       </div>
       <div class="partners-list-item-container">
         <div
-          v-for="(industry, index) in industries[selectedIndustryIndex]"
+          v-for="(industry, index) in industries[selectedIndustryIndex].slice(0, 5)"
           :key="`industry-${index}`"
           class="partners-list-item"
         >
@@ -50,7 +50,7 @@ const selectIndustry = (index) => {
         </div>
       </div>
       <div class="partners-list-item-mobile-container">
-        <template v-for="(industry, index) in industries[selectedIndustryIndex]">
+        <template v-for="(industry, index) in industries[selectedIndustryIndex].slice(0, 5)">
           <div
             v-if="industry !== null"
             :key="`industry-mobile-${index}`"
@@ -134,14 +134,13 @@ const selectIndustry = (index) => {
 .partners-list-item-container {
   margin-bottom: 40px;
   display: none;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, minmax(auto, 150px));
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .partners-list-item {
-  align-content: center;
+  flex: 0 1 calc(100% / 3);
   /* border: 1px solid var(--cntr-off-white); */
 }
 
@@ -195,13 +194,11 @@ const selectIndustry = (index) => {
   }
 
   .partners-list-item-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
   }
 
   .partners-list-item {
-    padding: 40px 20px;
+    padding: 40px 0px;
   }
 
   .partners-list-item-mobile-container {
