@@ -93,7 +93,10 @@ export const GET_CONTENT_SETTINGS = gql`
           }
           products {
             productCategory1 {
-              categoryName
+              categoryName {
+                id
+                en
+              }
               product1 {
                 showOnHome
                 image {
@@ -255,6 +258,134 @@ export const GET_CONTENT_SETTINGS = gql`
                 }
               }
               product6 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product7 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product8 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product9 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product10 {
                 showOnHome
                 image {
                   node {
@@ -288,7 +419,10 @@ export const GET_CONTENT_SETTINGS = gql`
               }
             }
             productCategory2 {
-              categoryName
+              categoryName {
+                id
+                en
+              }
               product1 {
                 showOnHome
                 image {
@@ -450,6 +584,134 @@ export const GET_CONTENT_SETTINGS = gql`
                 }
               }
               product6 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product7 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product8 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product9 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product10 {
                 showOnHome
                 image {
                   node {
@@ -483,7 +745,10 @@ export const GET_CONTENT_SETTINGS = gql`
               }
             }
             productCategory3 {
-              categoryName
+              categoryName {
+                id
+                en
+              }
               product1 {
                 showOnHome
                 image {
@@ -645,6 +910,134 @@ export const GET_CONTENT_SETTINGS = gql`
                 }
               }
               product6 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product7 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product8 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product9 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product10 {
                 showOnHome
                 image {
                   node {
@@ -678,7 +1071,10 @@ export const GET_CONTENT_SETTINGS = gql`
               }
             }
             productCategory4 {
-              categoryName
+              categoryName {
+                id
+                en
+              }
               product1 {
                 showOnHome
                 image {
@@ -840,6 +1236,134 @@ export const GET_CONTENT_SETTINGS = gql`
                 }
               }
               product6 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product7 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product8 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product9 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product10 {
                 showOnHome
                 image {
                   node {
@@ -873,7 +1397,10 @@ export const GET_CONTENT_SETTINGS = gql`
               }
             }
             productCategory5 {
-              categoryName
+              categoryName {
+                id
+                en
+              }
               product1 {
                 showOnHome
                 image {
@@ -1035,6 +1562,134 @@ export const GET_CONTENT_SETTINGS = gql`
                 }
               }
               product6 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product7 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product8 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product9 {
+                showOnHome
+                image {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageOutline {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                imageSpecification {
+                  node {
+                    mediaItemUrl
+                    mediaType
+                    mimeType
+                  }
+                }
+                id {
+                  name
+                  description
+                }
+                en {
+                  name
+                  description
+                }
+              }
+              product10 {
                 showOnHome
                 image {
                   node {

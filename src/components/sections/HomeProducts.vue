@@ -55,7 +55,7 @@ const openProductModal = (product) => {
         class="item-container"
         @click="openProductModal(product)"
       >
-        <div class="item-category">{{ product.categoryName }}</div>
+        <div class="item-category">{{ product.categoryName[locale] }}</div>
         <div class="item-name">{{ product[locale].name }}</div>
         <div class="item-more">
           {{ t('browse-more') }} <img src="@/assets/icons/arrow-black.svg" alt="arrow" />

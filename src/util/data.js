@@ -35,7 +35,7 @@ export function constructProductsData (data) {
     let productObject = new Object()
     productObject.categoryName = data.products[`productCategory${i}`].categoryName
     productObject.products = []
-    for (let j = 1; j <= 6; j++) {
+    for (let j = 1; j <= 10; j++) {
       let currentProduct = data.products[`productCategory${i}`][`product${j}`]
       if (currentProduct.image !== null) {
         productObject.products.push(currentProduct)
@@ -46,7 +46,10 @@ export function constructProductsData (data) {
   }
 
   productsCategory.unshift({
-    categoryName: 'all-products',
+    categoryName: {
+      id: 'Semua Produk',
+      en: 'All Products'
+    },
     products: allProducts
   })
   return productsCategory
