@@ -373,7 +373,7 @@ const goToPage = (page) => {
     width: inherit;
     max-width: 280px;
     font-size: 0.9vw;
-    line-height: 1.5vw;
+    line-height: 1.2vw;
   }
 
   .footer-navigation {
