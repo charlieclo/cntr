@@ -165,7 +165,7 @@ const closeModal = () => {
 
   .product-name {
     grid-area: 1 / 2 / 2 / 3;
-    padding: 0;
+    padding: 0px 55px 0px 0px;
     font-size: 50px;
     line-height: 60px;
   }
