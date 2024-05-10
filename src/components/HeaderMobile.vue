@@ -1,9 +1,16 @@
 <script setup>
+import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const emit = defineEmits(['toggle'])
 
+const router = useRouter()
 const { t } = useI18n()
+
+const goToPage = (page) => {
+  router.push(page)
+  emit('toggle', false)
+}
 </script>
 
 <template>
@@ -17,7 +24,11 @@ const { t } = useI18n()
     />
     <!-- Logo -->
     <div class="logo-container">
-      <img src="@/assets/images/logo-white.svg" alt="logo" />
+      <img
+        src="@/assets/images/logo-white.svg"
+        alt="logo"
+        @click="goToPage('/')"
+      />
     </div>
   </header>
 </template>
