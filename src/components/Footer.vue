@@ -320,7 +320,7 @@ const goToPage = (page) => {
 .footer-copyright {
   font-weight: 400;
   font-size: 3vw;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--cntr-off-white);
 }
 
@@ -373,7 +373,7 @@ const goToPage = (page) => {
     width: inherit;
     max-width: 280px;
     font-size: 0.9vw;
-    line-height: 1.2vw;
+    line-height: 1.5vw;
   }
 
   .footer-navigation {
