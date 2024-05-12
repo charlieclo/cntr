@@ -49,13 +49,14 @@ onUnmounted(() => {
       <Transition name="fade" mode="out-in">
         <img
           v-if="checkMimeType(headlines[headlineIndex].background.node.mimeType, 'image')"
-          :key="`home-headline-background-${headlineIndex}`"
+          :key="`home-headline-background-image-${headlineIndex}`"
           :src="headlines[headlineIndex].background.node.mediaItemUrl"
           :alt="`home-headline-background-${headlineIndex}`"
           :id="`home-headline-background-${headlineIndex}`"
         />
         <video
           v-else-if="checkMimeType(headlines[headlineIndex].background.node.mimeType, 'video')"
+          :key="`home-headline-background-video-${headlineIndex}`"
           :src="headlines[headlineIndex].background.node.mimeType"
           :muted="true"
           autoplay
