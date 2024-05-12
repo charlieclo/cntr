@@ -79,7 +79,7 @@ const goToPage = (page) => {
               :key="navigation.name"
             >
               <router-link
-                v-if="navigation.name !== 'home'"
+                v-if="navigation.name !== 'navigations.home'"
                 :to="navigation.path"
                 :id="navigation.name"
               >
