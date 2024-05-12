@@ -57,7 +57,7 @@ onUnmounted(() => {
         <video
           v-else-if="checkMimeType(headlines[headlineIndex].background.node.mimeType, 'video')"
           :key="`home-headline-background-video-${headlineIndex}`"
-          :src="headlines[headlineIndex].background.node.mimeType"
+          :src="headlines[headlineIndex].background.node.mediaItemUrl"
           :muted="true"
           autoplay
           loop
